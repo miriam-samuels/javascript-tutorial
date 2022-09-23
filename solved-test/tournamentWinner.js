@@ -11,7 +11,7 @@
 // all things being noted .... lets start 
 
 function tornamentWinner(competitions, result) {
-    // an array to track winner 
+    // an object to track winner 
     let scores = {}
     // the competition and result arrays will always have the same length
     for (let i = 0; i < result.length; i++) {
